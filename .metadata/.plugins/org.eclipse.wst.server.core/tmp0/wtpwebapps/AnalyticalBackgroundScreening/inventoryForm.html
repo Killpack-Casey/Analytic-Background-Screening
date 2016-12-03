@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inventory</title>
+<!-- Link to external css stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<a href="Home.html">Go Back to Home</a>
+<br>
+<h1>Inventory Submission Form</h1>
+<br>
+<form method="get" action="Inventory">
+	Product SKU: <input name="sku"/>
+	<br>
+	Product Name: <input name="productName"/>
+	<br>
+	Price: <input name="price" type="number"/>
+	<br>
+	Product Amount: <input name="amount"/>
+	<br>
+	Date Checked In: <input name="dateIn"/>
+	<br>
+	Location Checked In: <input name="locationIn"/>
+	<br>
+	Please select one of the two options:
+	<input type="radio" name="shipping" value="Fedex">Shipped Via Fedex</input>
+	<input type="radio" name="shipping" value="UPS">Shipped Via UPS</input>
+	<br>
+	<input type="submit"/>
+	
+	
+</form>
+
+</body>
+</html>
