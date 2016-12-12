@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Budget</title>
+<!-- Link to external css stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="inventoryForm.html">Submit Inventory</a></li>
+  <li><a href="finance.html">Go to budget</a></li>
+  <!--  <li><a href="customers.html">Customers</a></li> -->
+  <li><a href="InventoryView">Go to Inventory</a></li>
+</ul>
+<br>
+
+<h1>Analytic Background Screening</h1>
+<br>
+<h2>Budget</h2>>
+
+</body>
+</html>

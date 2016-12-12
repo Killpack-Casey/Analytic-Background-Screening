@@ -29,6 +29,10 @@
     <servlet-name>confirmDeletion</servlet-name>
     <servlet-class>org.abs.confirmDeletion</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>financeControl</servlet-name>
+    <servlet-class>org.abs.financeControl</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>Servlet</servlet-name>
     <url-pattern>/Inventory</url-pattern>
@@ -56,6 +60,10 @@
   <servlet-mapping>
     <servlet-name>confirmDeletion</servlet-name>
     <url-pattern>/confirmDeletion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>financeControl</servlet-name>
+    <url-pattern>/financeControl</url-pattern>
   </servlet-mapping>
   <error-page>
     <error-code>404</error-code>

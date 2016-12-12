@@ -20,7 +20,7 @@ public class deleteAllInventory extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		PrintWriter write = response.getWriter();
 		
@@ -28,7 +28,7 @@ public class deleteAllInventory extends HttpServlet {
 		*Print out information to the page. This is a confirmation page of deletion with the option to return to the
 		*inventory page or confirm deletion of entire inventory database.
 		*/
-		write.println("<form method=\"get\" action=\"confirmDeletion\">");
+		write.println("<form method=\"post\" action=\"confirmDeletion\">");
 		write.println("<h1>WARNING, YOU ARE ABOUT TO DELETE ALL DATA FROM THE INVENTORY TABLE</h1>");
 		write.println("Return to Inventory page <a href=\"InventoryView\">Go to Inventory</a>");
 		write.println("<br>");

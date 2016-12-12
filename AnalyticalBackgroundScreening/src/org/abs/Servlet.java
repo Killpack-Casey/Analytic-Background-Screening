@@ -82,7 +82,7 @@ public class Servlet extends HttpServlet {
 				write.println("<p>----------------------------------------------------------------------------------------------------</p>");
 				
 				//form to allow user to delete specific items from the inventory table
-				write.println("<form method=\"get\" action=\"deleteInventory\">");
+				write.println("<form method=\"post\" action=\"deleteInventory\">");
 				write.println("Specify Product ID For Deletion: <input name=\"delete\">");
 				write.println("<input type=\"submit\">");
 				write.println("</form>");

@@ -41,12 +41,12 @@ public class InventoryView extends HttpServlet {
 		write.println("</ul>");
 		write.println("<p>----------------------------------------------------------------------------------------------------</p>");
 		
-		write.println("<form method=\"get\" action=\"deleteInventory\">");
+		write.println("<form method=\"post\" action=\"deleteInventory\">");
 		write.println("Specify Product ID For Deletion: <input name=\"delete\">");
 		write.println("<input type=\"submit\">");
 		write.println("</form>");
 		
-		write.println("<form method=\"get\" action=\"deleteAllInventory\">");
+		write.println("<form method=\"post\" action=\"deleteAllInventory\">");
 		write.println("Delete Entire Inventory Database: <input type=\"submit\">");
 		write.println("</form>");
 		
